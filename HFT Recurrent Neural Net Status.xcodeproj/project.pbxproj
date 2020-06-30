@@ -8,21 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		AADEC60424AACDBF00978E6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADEC60324AACDBF00978E6E /* AppDelegate.swift */; };
-		AADEC60624AACDBF00978E6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADEC60524AACDBF00978E6E /* ContentView.swift */; };
 		AADEC60824AACDC000978E6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADEC60724AACDC000978E6E /* Assets.xcassets */; };
 		AADEC60B24AACDC000978E6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADEC60A24AACDC000978E6E /* Preview Assets.xcassets */; };
 		AADEC60E24AACDC000978E6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AADEC60C24AACDC000978E6E /* Main.storyboard */; };
+		AADEC61924AAD50800978E6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADEC61824AAD50800978E6E /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AADEC60024AACDBF00978E6E /* HFT Recurrent Neural Net Status.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HFT Recurrent Neural Net Status.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AADEC60324AACDBF00978E6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AADEC60524AACDBF00978E6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AADEC60724AACDC000978E6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AADEC60A24AACDC000978E6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AADEC60D24AACDC000978E6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AADEC60F24AACDC000978E6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AADEC61024AACDC000978E6E /* HFT_Recurrent_Neural_Net_Status.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HFT_Recurrent_Neural_Net_Status.entitlements; sourceTree = "<group>"; };
+		AADEC61824AAD50800978E6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +56,12 @@
 			isa = PBXGroup;
 			children = (
 				AADEC60324AACDBF00978E6E /* AppDelegate.swift */,
-				AADEC60524AACDBF00978E6E /* ContentView.swift */,
 				AADEC60724AACDC000978E6E /* Assets.xcassets */,
 				AADEC60C24AACDC000978E6E /* Main.storyboard */,
 				AADEC60F24AACDC000978E6E /* Info.plist */,
 				AADEC61024AACDC000978E6E /* HFT_Recurrent_Neural_Net_Status.entitlements */,
 				AADEC60924AACDC000978E6E /* Preview Content */,
+				AADEC61824AAD50800978E6E /* ViewController.swift */,
 			);
 			path = "HFT Recurrent Neural Net Status";
 			sourceTree = "<group>";
@@ -145,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AADEC60624AACDBF00978E6E /* ContentView.swift in Sources */,
+				AADEC61924AAD50800978E6E /* ViewController.swift in Sources */,
 				AADEC60424AACDBF00978E6E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
