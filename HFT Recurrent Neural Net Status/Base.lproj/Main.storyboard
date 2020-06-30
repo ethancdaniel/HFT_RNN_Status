@@ -71,7 +71,7 @@
         <scene sceneID="CZU-KQ-310">
             <objects>
                 <windowController id="6ID-g2-rPQ" sceneMemberID="viewController">
-                    <window key="window" title="HFT HFT HFT HFT" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="yvf-oh-mo2">
+                    <window key="window" title="HFT HFT HFT HFT" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" titlebarAppearsTransparent="YES" id="yvf-oh-mo2">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <rect key="contentRect" x="1680" y="627" width="360" height="400"/>
                         <rect key="screenRect" x="1680" y="-390" width="2560" height="1417"/>
