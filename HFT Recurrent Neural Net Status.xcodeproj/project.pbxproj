@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AADEC60424AACDBF00978E6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADEC60324AACDBF00978E6E /* AppDelegate.swift */; };
+		AADEC60624AACDBF00978E6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADEC60524AACDBF00978E6E /* ContentView.swift */; };
+		AADEC60824AACDC000978E6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADEC60724AACDC000978E6E /* Assets.xcassets */; };
+		AADEC60B24AACDC000978E6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADEC60A24AACDC000978E6E /* Preview Assets.xcassets */; };
+		AADEC60E24AACDC000978E6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AADEC60C24AACDC000978E6E /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AADEC60024AACDBF00978E6E /* HFT Recurrent Neural Net Status.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HFT Recurrent Neural Net Status.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AADEC60324AACDBF00978E6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AADEC60524AACDBF00978E6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AADEC60724AACDC000978E6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AADEC60A24AACDC000978E6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AADEC60D24AACDC000978E6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AADEC60F24AACDC000978E6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AADEC61024AACDC000978E6E /* HFT_Recurrent_Neural_Net_Status.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HFT_Recurrent_Neural_Net_Status.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AADEC5FD24AACDBF00978E6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AADEC5F724AACDBF00978E6E = {
+			isa = PBXGroup;
+			children = (
+				AADEC60224AACDBF00978E6E /* HFT Recurrent Neural Net Status */,
+				AADEC60124AACDBF00978E6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AADEC60124AACDBF00978E6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AADEC60024AACDBF00978E6E /* HFT Recurrent Neural Net Status.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AADEC60224AACDBF00978E6E /* HFT Recurrent Neural Net Status */ = {
+			isa = PBXGroup;
+			children = (
+				AADEC60324AACDBF00978E6E /* AppDelegate.swift */,
+				AADEC60524AACDBF00978E6E /* ContentView.swift */,
+				AADEC60724AACDC000978E6E /* Assets.xcassets */,
+				AADEC60C24AACDC000978E6E /* Main.storyboard */,
+				AADEC60F24AACDC000978E6E /* Info.plist */,
+				AADEC61024AACDC000978E6E /* HFT_Recurrent_Neural_Net_Status.entitlements */,
+				AADEC60924AACDC000978E6E /* Preview Content */,
+			);
+			path = "HFT Recurrent Neural Net Status";
+			sourceTree = "<group>";
+		};
+		AADEC60924AACDC000978E6E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AADEC60A24AACDC000978E6E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AADEC5FF24AACDBF00978E6E /* HFT Recurrent Neural Net Status */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AADEC61324AACDC000978E6E /* Build configuration list for PBXNativeTarget "HFT Recurrent Neural Net Status" */;
+			buildPhases = (
+				AADEC5FC24AACDBF00978E6E /* Sources */,
+				AADEC5FD24AACDBF00978E6E /* Frameworks */,
+				AADEC5FE24AACDBF00978E6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HFT Recurrent Neural Net Status";
+			productName = "HFT Recurrent Neural Net Status";
+			productReference = AADEC60024AACDBF00978E6E /* HFT Recurrent Neural Net Status.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AADEC5F824AACDBF00978E6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Ethan Daniel";
+				TargetAttributes = {
+					AADEC5FF24AACDBF00978E6E = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = AADEC5FB24AACDBF00978E6E /* Build configuration list for PBXProject "HFT Recurrent Neural Net Status" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AADEC5F724AACDBF00978E6E;
+			productRefGroup = AADEC60124AACDBF00978E6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AADEC5FF24AACDBF00978E6E /* HFT Recurrent Neural Net Status */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AADEC5FE24AACDBF00978E6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AADEC60E24AACDC000978E6E /* Main.storyboard in Resources */,
+				AADEC60B24AACDC000978E6E /* Preview Assets.xcassets in Resources */,
+				AADEC60824AACDC000978E6E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AADEC5FC24AACDBF00978E6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AADEC60624AACDBF00978E6E /* ContentView.swift in Sources */,
+				AADEC60424AACDBF00978E6E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AADEC60C24AACDC000978E6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AADEC60D24AACDC000978E6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AADEC61124AACDC000978E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AADEC61224AACDC000978E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AADEC61424AACDC000978E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "HFT Recurrent Neural Net Status/HFT_Recurrent_Neural_Net_Status.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"HFT Recurrent Neural Net Status/Preview Content\"";
+				DEVELOPMENT_TEAM = J9T39XL8AQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "HFT Recurrent Neural Net Status/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ethandaniel.HFT-Recurrent-Neural-Net-Status";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AADEC61524AACDC000978E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "HFT Recurrent Neural Net Status/HFT_Recurrent_Neural_Net_Status.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"HFT Recurrent Neural Net Status/Preview Content\"";
+				DEVELOPMENT_TEAM = J9T39XL8AQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "HFT Recurrent Neural Net Status/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ethandaniel.HFT-Recurrent-Neural-Net-Status";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AADEC5FB24AACDBF00978E6E /* Build configuration list for PBXProject "HFT Recurrent Neural Net Status" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AADEC61124AACDC000978E6E /* Debug */,
+				AADEC61224AACDC000978E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AADEC61324AACDC000978E6E /* Build configuration list for PBXNativeTarget "HFT Recurrent Neural Net Status" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AADEC61424AACDC000978E6E /* Debug */,
+				AADEC61524AACDC000978E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AADEC5F824AACDBF00978E6E /* Project object */;
+}
