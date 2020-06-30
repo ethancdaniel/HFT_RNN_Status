@@ -94,116 +94,116 @@
             <objects>
                 <viewController id="53c-NS-jYH" sceneMemberID="viewController">
                     <view key="view" id="EgQ-Oz-9el">
-                        <rect key="frame" x="0.0" y="0.0" width="368" height="352"/>
+                        <rect key="frame" x="0.0" y="0.0" width="368" height="350"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="p7g-w2-jcQ">
-                                <rect key="frame" x="128" y="294" width="113" height="47"/>
+                                <rect key="frame" x="129" y="285" width="110" height="54"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="$0.00" id="igX-VD-reM">
-                                    <font key="font" metaFont="system" size="40"/>
+                                    <font key="font" size="40" name="Nunito-Regular"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ZYU-rT-Qzk">
-                                <rect key="frame" x="107" y="270" width="147" height="16"/>
+                                <rect key="frame" x="103" y="260" width="161" height="17"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="All-Time Marginal Profit" id="4DC-5x-3iw">
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" size="15" name="HelveticaNeue"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <box appearanceType="aqua" verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="BNQ-AJ-E8q">
-                                <rect key="frame" x="94" y="252" width="180" height="5"/>
+                                <rect key="frame" x="94" y="242" width="180" height="5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="180" id="Xgw-50-g17"/>
                                 </constraints>
                             </box>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="73S-YW-LYc">
-                                <rect key="frame" x="18" y="220" width="136" height="19"/>
+                                <rect key="frame" x="18" y="212" width="140" height="17"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="AWS1, ??? Instance" id="v6w-M1-XPF">
-                                    <font key="font" metaFont="system" size="15"/>
+                                    <font key="font" size="15" name="HelveticaNeue"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="dbS-Mb-GUl">
-                                <rect key="frame" x="18" y="193" width="49" height="15"/>
+                                <rect key="frame" x="18" y="182" width="50" height="18"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Uptime:" id="xOY-RY-HOQ">
-                                    <font key="font" metaFont="system" size="12"/>
+                                    <font key="font" size="13" name="Nunito-Regular"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="XVW-1a-AJn">
-                                <rect key="frame" x="18" y="172" width="44" height="15"/>
+                                <rect key="frame" x="18" y="158" width="45" height="18"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Status:" id="yKu-ub-kYY">
-                                    <font key="font" metaFont="system" size="12"/>
+                                    <font key="font" size="13" name="Nunito-Regular"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rWK-dq-Cbx">
-                                <rect key="frame" x="68" y="193" width="22" height="15"/>
+                                <rect key="frame" x="69" y="182" width="23" height="18"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="OK" id="tKl-Zh-x02">
-                                    <font key="font" metaFont="system" size="12"/>
+                                    <font key="font" size="13" name="Nunito-Regular"/>
                                     <color key="textColor" name="systemGreenColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="dXi-ma-Wbr">
-                                <rect key="frame" x="63" y="172" width="30" height="15"/>
+                                <rect key="frame" x="64" y="158" width="32" height="18"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="IDLE" id="Xng-xW-3nx">
-                                    <font key="font" metaFont="system" size="12"/>
+                                    <font key="font" size="13" name="Nunito-Regular"/>
                                     <color key="textColor" name="systemYellowColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="FVK-hJ-jLf">
-                                <rect key="frame" x="175" y="193" width="60" height="15"/>
+                                <rect key="frame" x="174" y="182" width="61" height="18"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Incoming:" id="TQh-KA-GXB">
-                                    <font key="font" metaFont="system" size="12"/>
+                                    <font key="font" size="13" name="Nunito-Regular"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="h8v-Xl-xWj">
-                                <rect key="frame" x="175" y="172" width="63" height="15"/>
+                                <rect key="frame" x="174" y="158" width="64" height="18"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Outgoing:" id="h6j-j9-w9B">
-                                    <font key="font" metaFont="system" size="12"/>
+                                    <font key="font" size="13" name="Nunito-Regular"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="e5x-sD-RFP">
-                                <rect key="frame" x="239" y="193" width="20" height="15"/>
+                                <rect key="frame" x="239" y="182" width="20" height="18"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="0K" id="I2h-zz-TQD">
-                                    <font key="font" metaFont="system" size="12"/>
+                                    <font key="font" size="13" name="Nunito-Regular"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="NJy-Gp-MuR">
-                                <rect key="frame" x="239" y="172" width="20" height="15"/>
+                                <rect key="frame" x="239" y="158" width="20" height="18"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="0K" id="ckv-nE-LGj">
-                                    <font key="font" metaFont="system" size="12"/>
+                                    <font key="font" size="13" name="Nunito-Regular"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <box appearanceType="aqua" verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="qQp-o6-Ltd">
-                                <rect key="frame" x="94" y="157" width="180" height="5"/>
+                                <rect key="frame" x="94" y="143" width="180" height="5"/>
                             </box>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="aS8-WJ-WES">
-                                <rect key="frame" x="72" y="135" width="224" height="16"/>
+                                <rect key="frame" x="78" y="119" width="212" height="18"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="∆ Shares (Jun 29, 2020): No activity" id="qop-W1-L7a">
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" size="13" name="Nunito-Regular"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="tkH-ur-M5I">
-                                <rect key="frame" x="0.0" y="42" width="368" height="68"/>
+                                <rect key="frame" x="0.0" y="42" width="368" height="52"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" borderStyle="border" alignment="center" drawsBackground="YES" id="1Pv-fv-t3D">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -211,16 +211,16 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fGs-xs-ral">
-                                <rect key="frame" x="128" y="68" width="112" height="16"/>
+                                <rect key="frame" x="130" y="59" width="108" height="18"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" enabled="NO" title="Ping All Instances" id="4h0-mY-yaM">
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" size="13" name="Nunito-Regular"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="fGs-xs-ral" firstAttribute="top" secondItem="aS8-WJ-WES" secondAttribute="bottom" constant="51" id="0R5-rU-gb4"/>
+                            <constraint firstItem="fGs-xs-ral" firstAttribute="top" secondItem="aS8-WJ-WES" secondAttribute="bottom" constant="42" id="0R5-rU-gb4"/>
                             <constraint firstItem="fGs-xs-ral" firstAttribute="centerX" secondItem="tkH-ur-M5I" secondAttribute="centerX" id="1bc-ug-QL5"/>
                             <constraint firstItem="tkH-ur-M5I" firstAttribute="top" secondItem="aS8-WJ-WES" secondAttribute="bottom" constant="25" id="3dg-cG-X6r"/>
                             <constraint firstAttribute="trailing" secondItem="e5x-sD-RFP" secondAttribute="trailing" constant="111" id="4UJ-QX-Ycx"/>
@@ -247,7 +247,7 @@
                             <constraint firstItem="BNQ-AJ-E8q" firstAttribute="leading" secondItem="EgQ-Oz-9el" secondAttribute="leading" constant="94" id="W49-BV-iLc"/>
                             <constraint firstItem="h8v-Xl-xWj" firstAttribute="baseline" secondItem="NJy-Gp-MuR" secondAttribute="baseline" id="Xbl-Dx-XVi"/>
                             <constraint firstItem="XVW-1a-AJn" firstAttribute="top" secondItem="dbS-Mb-GUl" secondAttribute="bottom" constant="6" id="Zlg-C7-fDV"/>
-                            <constraint firstItem="ZYU-rT-Qzk" firstAttribute="leading" secondItem="EgQ-Oz-9el" secondAttribute="leading" constant="109" id="dCP-mP-LBL"/>
+                            <constraint firstItem="ZYU-rT-Qzk" firstAttribute="leading" secondItem="EgQ-Oz-9el" secondAttribute="leading" constant="105" id="dCP-mP-LBL"/>
                             <constraint firstItem="ZYU-rT-Qzk" firstAttribute="top" secondItem="p7g-w2-jcQ" secondAttribute="bottom" constant="8" symbolic="YES" id="e23-jC-zvB"/>
                             <constraint firstItem="BNQ-AJ-E8q" firstAttribute="leading" secondItem="qQp-o6-Ltd" secondAttribute="leading" id="ex2-Ob-vw7"/>
                             <constraint firstItem="FVK-hJ-jLf" firstAttribute="baseline" secondItem="e5x-sD-RFP" secondAttribute="baseline" id="fWK-Hi-IaS"/>
@@ -268,7 +268,7 @@
                 </viewController>
                 <customObject id="Rpa-Tr-UdU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="131" y="696"/>
+            <point key="canvasLocation" x="131" y="695.5"/>
         </scene>
     </scenes>
 </document>
